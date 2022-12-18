@@ -18,7 +18,6 @@
                     </li>
                 </ul>
             </div>
-
             <template>
               <div v-for="item in aboutus" :key="item.id">
                 <div class="companyProfile clearfix" v-if="sortid==4">
@@ -36,9 +35,7 @@
                         <img :src="item.pic" alt="">
                     </div>
                 </div>
-
               </div>
-
             </template>
             <div class="companyHonor" v-if="sortid==6">
               <h2 class="comtitle">{{sortname}}<span></span></h2>
